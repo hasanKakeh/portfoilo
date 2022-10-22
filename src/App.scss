@@ -1,0 +1,13 @@
+@import './style/styles.scss';
+.App {
+  //height: 100vh;
+}
+.section-welcome {
+  min-height: 92vh;
+  font-family: 'Roboto Mono', monospace;
+
+}
+.img-rounded {
+  border-radius: 50%;
+  border: 5px solid;
+}

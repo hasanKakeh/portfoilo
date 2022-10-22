@@ -1,0 +1,7 @@
+@use "../abstract" as *;
+
+footer {
+  padding: 1rem clamp(1rem, 7vw, 200px);
+  background-color: $black;
+  z-index: 9999
+}

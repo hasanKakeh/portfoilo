@@ -1,0 +1,65 @@
+export const projects = [
+  {
+    title: "Dentatic",
+    img: "./dentatic.jpg",
+    description:
+      "A prosthodontic laboratory management platform to manage services between clinics and the laboratory.",
+    made_with: [
+      "Angular",
+      "Ag grid",
+      "Typescript",
+      "Sockit io",
+      "Html",
+      "Scss",
+      "Transloco",
+      "Rest api",
+      "Bootstrap",
+      "Jspm",
+    ],
+    is_private: true,
+  },
+  {
+    title: "Game 2048",
+    img: "./game2048.png",
+    description: "it is a single-player sliding tile puzzle video game",
+    made_with: [
+      "Angular",
+      "Scss",
+      "Html",
+      "Typescript",
+      "PWA",
+      "Angular animation",
+    ],
+    github_link: "",
+    view_link: "https://hasankakeh.github.io/game2048Angular/",
+    is_educational: true,
+  },
+
+  {
+    title: "Oshop",
+    img: "./oshop.png",
+    description:
+      "basic e-commerce app with firebase store support authentication, authorization and form validation",
+    made_with: ["Angular", "Bootstrap", "Html", "Scss", "Firebase"],
+    view_link: "https://hasankakeh.github.io/Oshop/",
+    github_link: "https://github.com/hasanKakeh/Oshop",
+    is_educational: true,
+  },
+  {
+    title: "Fitness tracker",
+    img: "./fitness.png",
+    description: "",
+    made_with: [
+      "Angular",
+      "Bootstrap",
+      "Html",
+      "css",
+      "Firebase",
+      "Ngrx",
+      "Material",
+    ],
+    view_link: "https://hasankakeh.github.io/ng-fitness-tracker/training",
+    github_link: "https://github.com/hasanKakeh/ng-fitness-tracker",
+    is_educational: true,
+  },
+];

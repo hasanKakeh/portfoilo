@@ -1,0 +1,23 @@
+@use "../abstract" as *;
+
+.xlarg-text {
+  font-size: $xlarge-text;
+}
+.medium-text {
+  font-size: $medium-text;
+}
+.small-text {
+  font-size: $small-text;
+}
+.larg-text{
+  font-size: $larg-text;
+}
+.title {
+  font-size: $larg-text;
+  color: $black;
+}
+
+.main-text {
+  font-size: $xlarge-text;
+  color: $white;
+}

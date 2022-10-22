@@ -1,0 +1,24 @@
+@use "../abstract" as *;
+.white {
+  color: $white;
+}
+.grey {
+  color: $grey;
+}
+.black {
+  color: $black;
+}
+.light-grey {
+  color: $light-grey;
+}
+.primary-color {
+  color: $pirmary-color;
+}
+.bg-blue{
+  background-color: blue;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
